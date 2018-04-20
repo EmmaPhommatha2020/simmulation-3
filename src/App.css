@@ -1,0 +1,110 @@
+/* ••••• CSS - CSS-flexbox •••••
+27C	justify-content
+27D	align-items
+27E	flex-wrap
+27F	flex-direction
+27G	display: flex 
+*/
+.all_nav_logo{ 
+  background-color: rgb(255, 123, 0);
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap-reverse;
+  align-items: flex-start;
+  justify-content: space-between; 
+}
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+
+.logo_auth{
+  display: flex;
+  justify-self: center;
+  margin-bottom: 40px;
+}
+
+
+/* ••••• CSS - Fancy effects •••••
+30C	box-shadow
+30D	gradients
+30E	text effects
+*/
+.auth_login{
+  display: grid;
+  background-color: rgb(250, 153, 27);
+  padding: 50px;
+  width: 300px;
+  height: 50vh;
+  box-shadow: 1px 3px 3px 3px;
+  color: rgb(184, 184, 184);
+  border-radius: 10px;
+}
+
+.auth_input{
+  margin-bottom: 10px;
+  width: 200px;
+  margin-left: 10px;
+}
+
+.auth_button{
+  padding: 10px;
+  background-color: rgb(36, 36, 36);
+  color: white;
+}
+
+h5{
+  display: inline-flex;
+}
+
+.login_button{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+html{
+  background-color: #ffea2e;
+}
+
+
+.dashboard_view{
+  background-color: rgb(255, 123, 0);
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  justify-content: space-between; 
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+}
+
+.dashboard_link{
+
+}
+/* ••••• CSS - Position •••••
+25C-1	relative
+25C-2	absolute
+25C-3	fixed
+*/
+
+
+
+/* ••••• CSS - Font/ Background •••••
+23D-1	font-weight
+23D-2	color
+23D-3	font-size
+23E	background-color
+23F	background-image
+*/
+
+
+/* ••••• CSS - Box model •••••
+24C	margin
+24D	border
+24E	padding
+24F	box-sizing
+*/
